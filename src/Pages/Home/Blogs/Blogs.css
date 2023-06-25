@@ -1,0 +1,136 @@
+.blogs-section {
+    padding-top: 70px;
+}
+
+.blogs-title {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.blogs-title h4 {
+    color: var(--primary-color);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 4px;
+}
+
+.blogs-title h2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 62px;
+    padding-bottom: 10px;
+}
+
+.blogs-card {
+    background: #FFFFFF;
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.blogs-card-img img {
+    width: 100%;
+}
+
+.blogs-card-content {
+    padding: 30px 20px;
+    padding-top: 20px;
+}
+
+.blogs-card-content .dates {
+    margin-bottom: 10px;
+}
+
+.blogs-card-content h3 {
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 32px;
+    text-transform: capitalize;
+    color: #2E2626;
+}
+
+.blogs-card-content .dates span {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--body-color);
+}
+
+.blogs-card-content .dates span:first-child {
+    padding-right: 15px;
+    margin-right: 18px;
+    position: relative;
+}
+
+.blogs-card-content .dates span:first-child:after {
+    content: "";
+    clear: both;
+    display: block;
+    position: absolute;
+    width: 1px;
+    height: 13px;
+    background: var(--body-color);
+    opacity: .15;
+    bottom: 1px;
+    right: 0px;
+}
+
+.blogs-card-content .button {
+    color: var(--body-color);
+    border-radius: 40px;
+    height: 50px;
+    padding: 0px 20px;
+    padding-right: 2px;
+    border: 1px solid rgba(34, 34, 34, 0.10);
+}
+
+.blogs-card-content .button:hover {
+    color: #fff;
+}
+
+.blogs-card-content .button span {
+    background: var(--headding-color);
+    margin-left: 15px;
+    width: 42px;
+    height: 42px;
+}
+
+.blogs-card-content .button:hover span {
+    color: var(--primary-color);
+    background: #fff;
+}
+
+@media (max-width:991px) {
+    .blogs-card {
+        margin-top: 15px;
+    }
+    .blogs-section {
+        padding-top: 50px;
+    }
+}
+
+@media (max-width:476px) {
+    .blogs-title h4 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .blogs-title h2 {
+        font-size: 38px;
+        line-height: 40px;
+    }
+}
+
+@media (max-width:400px) {
+    .blogs-title h4 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .blogs-title h2 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+}

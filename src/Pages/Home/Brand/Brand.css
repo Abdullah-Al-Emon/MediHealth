@@ -1,0 +1,9 @@
+.brand-section{
+    padding-top: 100px;
+    padding-bottom: 90px;
+}
+
+.brand-section .owl-carousel .owl-stage{
+    display: flex;
+    gap: 20px;
+}

@@ -1,0 +1,78 @@
+.appointment{
+    background-image: url('../../../assets/Images/BG.png');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.apointment-content{
+    text-align: center;
+    padding: 100px 300px;
+}
+
+.apointment-content h4{
+    color: var(--primary-color);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 36px;
+    margin-bottom: 4px;
+}
+
+.apointment-content h2{
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 56px;
+    padding-bottom: 15px;
+}
+
+@media (max-width:1200px) {
+    .apointment-content {
+        padding: 100px 220px;
+    }
+}
+
+@media (max-width:991px) {
+    .apointment-content {
+        padding: 100px 130px;
+    }
+}
+
+@media (max-width: 810px) {
+    .apointment-content{
+        padding: 80px 80px;
+    }
+}
+
+@media (max-width: 810px) {
+    .apointment-content{
+        padding: 80px 30px;
+    }
+}
+
+@media (max-width: 576px) {
+    .apointment-content{
+        padding: 50px 10px;
+    }
+    .apointment-content h4{
+        font-size: 18px;
+    }
+
+    .apointment-content h2{
+        line-height: 45px;
+        font-size: 30px;
+    }
+}
+
+@media (max-width:376px) {
+    .apointment-content h4{
+        font-size: 16px;
+    }
+
+    .apointment-content h2{
+        line-height: 40px;
+        font-size: 27px;
+    }
+}

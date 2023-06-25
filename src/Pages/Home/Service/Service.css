@@ -1,0 +1,19 @@
+.service-area{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.service-area .owl-dots{
+    display: flex;
+    justify-content: center;
+}
+
+.service-area .owl-carousel .owl-stage {
+    padding-bottom: 20px;
+}
+
+@media (max-width:390px) {
+    .service-area .owl-dots{
+        display: none;
+    }
+}

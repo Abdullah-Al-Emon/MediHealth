@@ -1,0 +1,83 @@
+.owl-carousel {
+    position: relative;
+}
+
+.owl-nav {
+    position: absolute;
+    z-index: 1;
+    top: 45%;
+    width: 100%;
+}
+
+.owl-next {
+    position: absolute;
+    right: 0;
+    visibility: hidden;
+}
+
+.owl-next::after {
+    visibility: visible;
+    content: '→';
+    font-size: 25px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 3px;
+    color: var(--body-color);
+    background: #FFFFFF;
+    position: absolute;
+    transition: all .3s ease;
+    top: 0;
+    right: 3px;
+    width: 60px;
+    height: 60px;
+}
+.owl-next:hover::after{
+    color: var(--section-bg);
+    background: var(--primary-color);
+}
+
+.owl-prev {
+    position: absolute;
+    left: 0;
+    visibility: hidden;
+}
+
+.owl-prev::after {
+    visibility: visible;
+    content: '←';
+    font-size: 25px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 3px;
+    color: var(--body-color);
+    background: #FFFFFF;
+    position: absolute;
+    transition: all .3s ease;
+    top: 0;
+    left: 3px;
+    width: 60px;
+    height: 60px;
+}
+.owl-prev:hover::after{
+    color: var(--section-bg);
+    background: var(--primary-color);
+}
+.owl-dots {
+   display: none;
+}
+
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    border: 1px solid rgba(66, 75, 92, 0.1) !important;
+    background: rgba(66, 75, 92, 0.1) !important;
+}

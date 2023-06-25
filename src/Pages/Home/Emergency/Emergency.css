@@ -1,0 +1,144 @@
+.emergency-section {
+    padding-bottom: 100px;
+}
+
+.emergency-image {
+    display: flex;
+    justify-content: center;
+}
+
+.emergency-image img {
+    max-width: 100%;
+}
+
+.emergency-right {
+    padding-left: 30px;
+}
+
+.emergency-content h4 {
+    color: var(--primary-color);
+    font-size: 24px;
+    line-height: 36px;
+    text-transform: capitalize;
+}
+
+.emergency-content h2 {
+    color: var(--headding-color);
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 62px;
+    text-transform: capitalize;
+}
+
+.emergency-content p {
+    color: var(--body-color);
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.emergency-contacts{
+    padding: 10px 0px;
+}
+
+.emergency-contacts p {
+    color: #222;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 36px;
+    display: block;
+    padding-left: 23px;
+    color: var(--headding-color);
+    padding-bottom: 5px;
+    position: relative;
+}
+
+.emergency-contacts p::after {
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 14px;
+    width: 4px;
+    height: 12px;
+    border-radius: 3px;
+    background: var(--primary-color);
+}
+
+.emergency-right .contact-box{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 12px 10px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.05);
+    gap: 10px;
+}
+
+.emergency-right .contact-box .contact-icon{
+    background: var(--primary-color);
+    color: #fff;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    text-align: center;
+    float: left;
+    line-height: 36px;
+    margin-top: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.emergency-right .contact-box .contact-numb span{
+    display: block;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--body-color);
+}
+
+.emergency-right .contact-box .contact-numb h5{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+@media (max-width: 1200px) {
+    .emergency-content h2 {
+        font-size: 45px;
+    }
+}
+
+@media (max-width:991px) {
+    .emergency-right {
+        padding-top: 20px;
+        padding-left: 0px;
+    }
+
+    .emergency-content h2 {
+        font-size: 40px;
+        line-height: 55px;
+    }
+}
+
+@media (max-width:510px) {
+    .emergency-content h4 {
+        font-size: 22px;
+    }
+
+    .emergency-content h2 {
+        font-size: 35px;
+        line-height: 55px;
+    }
+
+    .emergency-content p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+}
+
+@media (max-width:400px) {
+    .emergency-content h2 {
+        font-size: 33px;
+        line-height: 50px;
+    }
+}
